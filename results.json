@@ -1,0 +1,60 @@
+{
+  "settings": {
+    "T_obs": 1250,
+    "reps_exp1": 300,
+    "threshold": 0.95
+  },
+  "exp1_false_positives": {
+    "1": {
+      "mean_best_annualised_sharpe": -0.009915029497641467,
+      "naive_false_positive_rate": 0.05333333333333334,
+      "deflated_false_positive_rate": 0.05333333333333334
+    },
+    "10": {
+      "mean_best_annualised_sharpe": 0.676856617992084,
+      "naive_false_positive_rate": 0.36333333333333334,
+      "deflated_false_positive_rate": 0.0
+    },
+    "100": {
+      "mean_best_annualised_sharpe": 1.1459464433525393,
+      "naive_false_positive_rate": 1.0,
+      "deflated_false_positive_rate": 0.0
+    },
+    "1000": {
+      "mean_best_annualised_sharpe": 1.4365945994931664,
+      "naive_false_positive_rate": 1.0,
+      "deflated_false_positive_rate": 0.0
+    }
+  },
+  "exp2_pbo": {
+    "noise_only": {
+      "mean_pbo": 0.48316666666666663,
+      "sd_across_datasets": 0.1546204133425539
+    },
+    "one_skilled_sharpe_1.0": {
+      "mean_pbo": 0.4096666666666666,
+      "sd_across_datasets": 0.16487335206825335
+    },
+    "one_skilled_sharpe_3.0": {
+      "mean_pbo": 0.012666666666666666,
+      "sd_across_datasets": 0.030624971655315684
+    }
+  },
+  "exp3_leaderboard": {
+    "skill_sd_0.01": {
+      "median_private_rank_of_public_winner": 296.5,
+      "share_still_first": 0.006,
+      "share_in_top_10": 0.04
+    },
+    "skill_sd_0.03": {
+      "median_private_rank_of_public_winner": 29.0,
+      "share_still_first": 0.062,
+      "share_in_top_10": 0.31
+    },
+    "skill_sd_0.1": {
+      "median_private_rank_of_public_winner": 2.0,
+      "share_still_first": 0.492,
+      "share_in_top_10": 0.966
+    }
+  }
+}
