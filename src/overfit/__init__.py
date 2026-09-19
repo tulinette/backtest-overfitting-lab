@@ -7,3 +7,4 @@ from .sharpe import (
     sharpe_ratio,
     sharpe_std_error,
 )
+from .simulate import simulate_leaderboard, simulate_returns
